@@ -140,38 +140,30 @@ The fourth stage focused on analyzing the core business problems after completin
   - Visualized with bar plots  
 
 8) **Calculated 95% Confidence Intervals (CI) for Profit Margins of Top and Low-Performing Suppliers**  
-  - Established sales thresholds: suppliers with sales above the high threshold are top-performing, below the low threshold are low-performing  
-  - Filtered Gross Profit Margin (GPM) data accordingly  
-  - Calculated Confidence Interval as:  
-    \[
-    CI = \bar{X} \pm \text{margin of error}
-    \]  
-    Where,  
-    \[
-    \text{margin of error} = z \times \frac{s}{\sqrt{n}}
-    \]  
-    - \( \bar{X} \) = sample mean  
-    - \( z \) = z-score for 95% confidence (typically 1.96)  
-    - \( s \) = sample standard deviation  
-    - \( n \) = sample size  
-  - Lower and Upper bounds calculated as:  
-    \[
-    \text{Lower bound} = \bar{X} - \text{margin of error}
-    \]  
-    \[
-    \text{Upper bound} = \bar{X} + \text{margin of error}
-    \]  
-  - Example: Mean = 31.31, CI = (30.89, 31.74)  
-  - Visualized using histograms with kernel density estimation (KDE)
+- Established sales thresholds: suppliers with sales above the high threshold are top-performing, below the low threshold are low-performing  
+- Filtered Gross Profit Margin (GPM) data accordingly  
+- Calculated Confidence Interval as:  
+  CI = X̄ ± margin of error  
+  Where,  
+  margin of error = z × (s / √n)  
+  - X̄ = sample mean  
+  - z = z-score for 95% confidence (typically 1.96)  
+  - s = sample standard deviation  
+  - n = sample size  
+- Lower and Upper bounds calculated as:  
+  Lower bound = X̄ − margin of error  
+  Upper bound = X̄ + margin of error  
+- Example: Mean = 31.31, CI = (30.89, 31.74)  
+- Visualized using histograms with kernel density estimation (KDE)
  
 9) **Hypothesis Testing: Difference in Profit Margins Between Top and Low-Performing Suppliers**  
-  - Null Hypothesis \( H_0 \): No significant difference in mean profit margins between groups  
-  - Alternative Hypothesis \( H_1 \): Significant difference exists in mean profit margins  
-  - Conducted two-sample t-test comparing profit margins  
-  - Results:  
-    - t-statistic = -18.06, indicating top-performing suppliers have significantly lower average profit margins than low-performing suppliers  
-    - p-value = 0.0000 (< 0.05), so reject the null hypothesis  
-  - Visualized the distribution difference using a bell curve plot
+- Null Hypothesis (H₀): No significant difference in mean profit margins between groups  
+- Alternative Hypothesis (H₁): Significant difference exists in mean profit margins  
+- Conducted two-sample t-test comparing profit margins  
+- Results:  
+  - t-statistic = -18.06, indicating top-performing suppliers have significantly lower average profit margins than low-performing suppliers  
+  - p-value = 0.0000 (< 0.05), so reject the null hypothesis  
+- Visualized the distribution difference using a bell curve plot  
     
 - Refer to the [Visualization.pdf](https://github.com/DevanshLath45/Supplier-Performance-Evaluation-End-to-End/blob/main/Supplier_Analysis_Visualization.pdf) file for detailed visualizations created in Python while identifying and analyzing business problems.
   
