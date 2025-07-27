@@ -133,11 +133,9 @@ The fourth stage focused on analyzing the core business problems after completin
   - Visualized using bar plots
  
 7) **Determined Suppliers Responsible for Largest Unsold Inventory Value**  
-  - Calculated Unsold Inventory Value as:  
-    \[
-    \text{Unsold Inventory Value} = (\text{Total Quantity Purchased} - \text{Total Quantity Sold}) \times \text{Purchase Price Per Unit}
-    \]  
-  - Visualized with bar plots  
+- Calculated Unsold Inventory Value as:  
+  Unsold Inventory Value = (Total Quantity Purchased − Total Quantity Sold) × Purchase Price Per Unit  
+- Visualized with bar plots  
 
 8) **Calculated 95% Confidence Intervals (CI) for Profit Margins of Top and Low-Performing Suppliers**  
 - Established sales thresholds: suppliers with sales above the high threshold are top-performing, below the low threshold are low-performing  
