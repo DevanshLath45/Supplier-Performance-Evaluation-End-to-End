@@ -148,9 +148,9 @@ The fourth stage focused on analyzing the core business problems after completin
   - z = z-score for 95% confidence (typically 1.96)  
   - s = sample standard deviation  
   - n = sample size  
-- Lower and Upper bounds calculated as:  
-  Lower bound = X̄ − margin of error  
-  Upper bound = X̄ + margin of error  
+- Lower and Upper bounds calculated as:
+  - Lower bound = X̄ − margin of error  
+  - Upper bound = X̄ + margin of error  
 - Example: Mean = 31.31, CI = (30.89, 31.74)  
 - Visualized using histograms with kernel density estimation (KDE)
  
