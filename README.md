@@ -2,7 +2,7 @@
 # Supplier Performance Evaluation - An End-to-End Data Analysis Project
 
 ---
-<img src="https://github.com/DevanshLath45/Supplier-Performance-Evaluation-End-to-End/blob/main/project.png" alt="Project Logo" width="750" height="350"/>
+<img src="https://raw.githubusercontent.com/DevanshLath45/Supplier-Performance-Evaluation-End-to-End/main/project.png" alt="Project Logo" width="750" />
 
 ## **Project Overview**
 
